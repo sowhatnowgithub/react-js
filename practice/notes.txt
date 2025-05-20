@@ -1,0 +1,8 @@
+the weird things i noticed about php is 
+
+1. The thing Nan == Nan will give false, because NaN means it is some undefined values. So how can two undefined values can be equal
+2. The variables can be functions and onbjects can take functioin as method and property 
+Ex: var misc = { print : function (message) { console.log(message) } } // we can call this by misc.print("hi");
+3. The objects of same content and value cannot be equal cause, the object are mutuable meaning the value of the property can be changed, but two strings can be equal as strings are immutable
+4. You can pass function as an argument, i mean directly funciton () {} 
+
